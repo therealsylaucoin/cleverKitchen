@@ -1,12 +1,6 @@
-# Aivia Inc. Syl Front End Developer Production Test
-
-### Your production test me be submitted on or before: Jan 31st, 2021 @ 5:00PM
-
-# Note to the reviewer
-
 ## Welcome to Clever Kitchen
 
-Clever Kitchen is a web app built with React and powered by the [Spoonacular API](https://spoonacular.com/food-api). This web app was built in the context of a 48hour tech challenge for Aivia.
+Clever Kitchen is a web app built with React and powered by the [Spoonacular API](https://spoonacular.com/food-api). This web app was built in the context of a 48hour tech challenge.
 
 ### What does it do?
 
