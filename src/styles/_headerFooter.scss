@@ -1,0 +1,30 @@
+header {
+    background-image: linear-gradient(rgba(20, 29, 12,.9),rgba(20, 29, 12,.9)),url(../assets/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    color: $white;
+    padding: 100px 50px;
+
+    h1, h2, p:first-of-type {
+        color: $lightTan;
+    }
+
+    button {
+        color: $lightGreen;
+        background-color: $darkGreen;
+        border: 2px solid $lightGreen;
+        &:hover, &:focus {
+            border: 2px solid $darkTan;
+            color: $darkTan;
+            background-color: $white;
+        }
+    }
+}
+
+footer {
+    background-color: $black;
+    color: $white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}

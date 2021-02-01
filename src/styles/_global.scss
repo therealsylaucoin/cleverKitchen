@@ -1,0 +1,88 @@
+$black: #141D0C;
+$white: #FEFAE0;
+$lightGreen: #778745;
+$darkGreen: #283618;
+$lightTan: #DDA15E;
+$darkTan: #BC6C25;
+
+$font: 'Open Sans', sans-serif;
+$headingFont: 'Fraunces', serif;
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $font;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    background-color: $white;
+    color: $black;
+}
+
+h1, h2, h3 {
+    font-family: $headingFont;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: $darkTan;
+}
+
+img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.wrapper {
+    max-width: 1280px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+button {
+    border: 2px solid $darkTan;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: $darkTan;
+    background-color: $white;
+}
+
+button:hover, button:focus, .muted {
+    color: $darkGreen;
+    background-color: $lightGreen;
+    border: 2px solid $darkGreen;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    button {
+        width: fit-content;
+        margin: 15px;
+    }
+}
+
+.lightBg {
+    background-color: rgba(221, 161, 94, 0.1);
+    padding: 5px;
+}

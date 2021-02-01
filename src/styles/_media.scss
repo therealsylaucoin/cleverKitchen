@@ -1,0 +1,25 @@
+@media (max-width: 900px){
+    main {
+        flex-direction: column;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .rightColumn {
+        padding-bottom: 50px;
+    }
+
+    .leftColumn {
+        h2 {
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 500px ){
+    .leftColumn {
+        text-align: center;
+    }
+}

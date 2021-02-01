@@ -1,0 +1,134 @@
+main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.rightColumn, .leftColumn {
+    padding: 2.5%;
+}
+
+.leftColumn {
+    flex: 2;
+    ul {
+        padding: 0;
+    }
+    .included {
+        flex-wrap: wrap;
+        align-items: center;
+        li {
+            padding: 10px 20px;
+            margin: 5px 10px;
+        }
+    }
+}
+
+.rightColumn {
+    background-color: $lightGreen;
+    flex: 0.75;
+    min-width: 300px;
+    text-align: center;
+    ul {
+        padding: 25px 0;
+    }
+    p:nth-child(5){
+        margin: 0;;
+    }
+    h2:last-of-type{
+        padding-top: 25px;
+    }
+}
+
+.searchResults {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    li {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        margin: 5px;
+        img {
+            height: 200px;
+            width: 250px;
+        }
+    }
+}
+
+.search {
+    position: relative;
+    height: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.search input {
+    background-color: $white;
+    border: none;
+    font-size: 1.8rem;
+    padding: 10px;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    transition: width 0.3s ease;
+}
+
+.searchBtn {
+    width: 52.5px;
+    height: 52.5px;
+    border-radius: 50%;
+    position: absolute;
+    transition: transform 0.3s ease;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    font-size: 2rem;
+}
+
+input.active {
+    width: 230px;
+}
+
+button.active {
+    transform: translateX(100px);
+}
+
+.ingredients {
+    text-align: left;
+    text-transform: capitalize;
+    justify-content: space-between;
+    background-color: $darkGreen;
+    margin: 5px 0;
+    padding: 0 10px;
+    border-radius: 6px;
+    color: $lightTan;
+    p {
+        margin: 10px;
+    }
+    button {
+        padding: 2.5px 5px;
+        border: none;
+        background-color: transparent;
+        color: $lightGreen;
+        &:hover, &:focus {
+            color: $white;
+        }
+    }
+}
+
+.inactive {
+    cursor: default;
+}
+
+.details {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.remove {
+    button{
+        color: $darkTan;
+    }
+}
