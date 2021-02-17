@@ -6,16 +6,6 @@ Clever Kitchen is a web app built with React and powered by the [Spoonacular API
 
 Users can search for ingredients that they already have on hand in order to find recipes that include these ingredients. The user will be presented with a variety of recipes sorted in order of missing ingredients (ascending). Users can then view the recipe directly on the page, or they can access the source url.
 
-### What more could it do?
-
-Opprtunities for improvement include:
-- Refined error handling achievable by investing more time in replicating error cases. 
-- A variety of sorting options for the recipe suggestions (diet, ingredients used, cost, not including, etc.).
-- Additionaly functionality such as a grocery list feature allowing users to add the missing ingredients directly to a list, their email, etc.
-
-### Additional notes
-All in all, I had a really fun time building this. I had fun building something that serves a real purpose and that many people can relate to: what to eat. I also had a fun time exploring with colours that are a bit outside of my usual bright/flashiness. I'm pretty happy with the result, considering the amount of time I spent on it. Excited to hear back!
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
